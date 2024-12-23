@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 100vh;
+    background-image: url(https://png.pngtree.com/background/20210717/original/pngtree-blue-healthcare-abstract-background-picture-image_1441119.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: white;
+    border-radius: 10px;
+    min-height: 400px;
+    border: 5px solid white;
+    margin-top: 170px;
+}
+.containerH{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.box{
+    width: 400px;
+    border-radius: 12px;
+    text-align: center;
+}
+h1{
+    color: rgb(0,0,0,0.7);
+    font-weight: bold;
+    font-size: 36px;
+}
+input{
+    background: white;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    height: 25px;
+}
+.calculate{
+    background-color: rgb(188, 6, 212);
+    color: white;
+    width: 262px;
+    height: 35px;
+    border-radius: 9px;
+    border: 1px solid white;
+}
+.calculate:hover{
+    cursor: pointer;
+    
+}
+#result{
+    color: red;
+    font-size: larger;
+    text-align: center;
+}
